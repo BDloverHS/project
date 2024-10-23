@@ -89,7 +89,7 @@ public class Utils {
          * 컨트롤러는 공통적으로 run 이라는 메서드가 정의되어 있고 run은 일련의 실행 절차가 정의되어 있다.
          */
         try {
-            // 싱클톤
+            // 싱글톤
             Object obj = BeanContainer.getBean(clazz); // getbean은 무조건 싱글톤.
 
             // [Controller인 경우만 처리]

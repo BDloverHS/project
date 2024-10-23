@@ -113,6 +113,7 @@ public abstract class Controller {
      */
 
     public void prompt() {
+
         Utils.drawLine('-', 30);
         // 상황에 따라 다른 문자열이 나올 수 있도록 하는 함수
         System.out.print(getPromptText());
