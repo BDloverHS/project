@@ -90,7 +90,7 @@ public class Utils {
          */
         try {
             // 싱클톤
-            Object obj = BeanContainer.getBean(clazz);
+            Object obj = BeanContainer.getBean(clazz); // getbean은 무조건 싱글톤.
 
             // [Controller인 경우만 처리]
             if (obj instanceof Controller controller) {
